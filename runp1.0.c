@@ -65,7 +65,7 @@ lang_t detect_language(char f[20])
 		{
 			return java;
 		}
-		else if(strcmp(ext, "py") == 0)
+		else if(strcmp(ext, "py") == 0 || strcmp(ext, "py3") == 0)
 		{
 			return python;
 		}
